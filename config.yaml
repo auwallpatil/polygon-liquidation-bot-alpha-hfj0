@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (52358f5c7d437952)
+project:
+  name: polygon-liquidation-bot-alpha-hfj0
+  tag: 52358f5c7d437952
+  env: production
+cfg_fluxhzw7g6:
+  enabled: true
+  workers: 7
+cfg_shardk38bdw:
+  timeout_sec: 17
+  retry: 1
+cfg_shard2qrwod:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
